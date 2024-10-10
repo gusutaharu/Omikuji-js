@@ -1,0 +1,43 @@
+.container  {
+  width: 240px;
+  margin: 0 auto;
+  padding-top: 32px;
+  text-align: center;
+}
+
+.main {
+  border: double 3px red;
+  color: red;
+}
+
+.main > h1 {
+  font-size: 22px;
+  font-weight: normal;
+  margin: 0;
+  padding: 8px 0;
+  border-bottom: solid 2px red;
+}
+
+.main > p {
+  margin: 0;
+  padding: 24px 0;
+  font-size: 38px;
+  font-weight: bold;
+}
+
+button {
+  width: 100%;
+  margin-top: 16px;
+  padding: 8px;
+  background: red;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0 3px black;
+  cursor: pointer;
+}
+
+button:active {
+  box-shadow: none;
+  transform: translateY( 3px );
+}
