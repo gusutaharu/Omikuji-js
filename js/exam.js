@@ -5,6 +5,7 @@
   const result = document.getElementById('result')
 
   btn.addEventListener('click', ()=>{
-    result.textContent = 'hit!'
+    const n = Math.floor(Math.random() * 3);//nは再代入されないのでconst
+    result.textContent = n
   });
 }
